@@ -1,0 +1,14 @@
+# Target labels
+ abseil-cpp-populate
+# Source files and their labels
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/_deps/abseil-cpp-subbuild/CMakeFiles/abseil-cpp-populate
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/_deps/abseil-cpp-subbuild/CMakeFiles/abseil-cpp-populate.rule
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/_deps/abseil-cpp-subbuild/CMakeFiles/abseil-cpp-populate-complete.rule
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/abseil-cpp-populate-stamp/abseil-cpp-populate-build.rule
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/abseil-cpp-populate-stamp/abseil-cpp-populate-configure.rule
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/abseil-cpp-populate-stamp/abseil-cpp-populate-download.rule
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/abseil-cpp-populate-stamp/abseil-cpp-populate-install.rule
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/abseil-cpp-populate-stamp/abseil-cpp-populate-mkdir.rule
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/abseil-cpp-populate-stamp/abseil-cpp-populate-patch.rule
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/abseil-cpp-populate-stamp/abseil-cpp-populate-test.rule
+C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/abseil-cpp-populate-stamp/abseil-cpp-populate-update.rule

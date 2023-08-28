@@ -1,0 +1,31 @@
+"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\miaohanqi\Documents\TensorFlow_Lite\tensorflow-2.7.4\tensorflow\lite -B C:\Users\miaohanqi\Documents\TensorFlow_Lite\tensorflow-2.7.4\tensorflow\lite\cmake-build-debug
+[0/8] Performing download step (git clone) for 'eigen-populate'
+Cloning into 'eigen'...
+fatal: unable to access 'https://gitlab.com/libeigen/eigen/': OpenSSL/3.1.1: error:0A00010B:SSL routines::wrong version number
+Cloning into 'eigen'...
+fatal: unable to access 'https://gitlab.com/libeigen/eigen/': OpenSSL/3.1.1: error:0A00010B:SSL routines::wrong version number
+Cloning into 'eigen'...
+fatal: unable to access 'https://gitlab.com/libeigen/eigen/': OpenSSL/3.1.1: error:0A00010B:SSL routines::wrong version number
+-- Had to git clone more than once: 3 times.
+CMake Error at tmp/eigen-populate-gitclone.cmake:39 (message):
+  Failed to clone repository: 'https://gitlab.com/libeigen/eigen'
+
+
+FAILED: C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/eigen-populate-stamp/eigen-populate-download 
+cmd.exe /C "cd /D C:\Users\miaohanqi\Documents\TensorFlow_Lite\tensorflow-2.7.4\tensorflow\lite\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/tmp/eigen-populate-gitclone.cmake && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E touch C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/src/eigen-populate-stamp/eigen-populate-download"
+ninja: build stopped: subcommand failed.
+
+CMake Error at C:/Program Files/JetBrains/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake:1624 (message):
+  Build step for eigen failed: 1
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake:1764:EVAL:2 (__FetchContent_directPopulate)
+  C:/Program Files/JetBrains/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake:1764 (cmake_language)
+  tools/cmake/modules/OverridableFetchContent.cmake:531 (FetchContent_Populate)
+  tools/cmake/modules/eigen.cmake:39 (OverridableFetchContent_Populate)
+  tools/cmake/modules/Findeigen.cmake:18 (include)
+  CMakeLists.txt:132 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/Users/miaohanqi/Documents/TensorFlow_Lite/tensorflow-2.7.4/tensorflow/lite/cmake-build-debug/CMakeFiles/CMakeError.log".
